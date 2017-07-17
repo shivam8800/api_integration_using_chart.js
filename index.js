@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$.ajax({
 		type:"GET",
-		url:"http://api.data.gov.in/resource/9e13b6b8-ed3f-4493-89af-da4d178f7145?format=json&api-key=YOURKEY&limit=2000",
+		url:"https://api.data.gov.in/resource/9e13b6b8-ed3f-4493-89af-da4d178f7145?format=json&api-key=YOURKEY&limit=2000",
 		data: {},
 		success: function(data){
 			list1 = []
